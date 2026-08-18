@@ -23,8 +23,8 @@ export const siteConfig = {
     twitter: "https://twitter.com/nexustools",
   },
   ads: {
-    enabled: false, // Ad slots are disabled by default for compliant launch
-    client: "ca-pub-XXXXXXXXXXXXXXXX",
+    enabled: true,
+    client: "ca-pub-2560127169556607",
   },
   analytics: {
     gaMeasurementId: process.env.NEXT_PUBLIC_GA_ID || "G-XXXXXXXXXX",
