@@ -23,7 +23,7 @@ export const siteConfig = {
     twitter: "https://twitter.com/nexustools",
   },
   ads: {
-    enabled: true,
+    enabled: false, // Disabled to hide empty placeholder boxes until AdSense approves the account
     client: "ca-pub-2560127169556607",
   },
   analytics: {
