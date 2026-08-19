@@ -225,6 +225,82 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+
+        {/* Homepage Detailed Overview & Methodology */}
+        <section className="container max-w-5xl space-y-6">
+          <div className="border-b border-border pb-3">
+            <h2 className="text-2xl font-bold tracking-tight text-foreground">
+              Free Online Tools That Just Work — Simple, Private & Fast
+            </h2>
+            <p className="text-xs sm:text-sm text-muted-foreground mt-0.5">
+              How NexusTools delivers mathematically verified online utilities for students, engineers, and professionals.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm text-muted-foreground leading-relaxed">
+            <div className="space-y-3">
+              <h3 className="text-base font-bold text-foreground">Client-Side Computation Guarantee</h3>
+              <p>
+                Unlike traditional online utility websites that transmit your data to remote backend servers, NexusTools executes calculation algorithms directly inside your web browser. When you format JSON, generate cryptographic passwords, decode Base64 strings, or compute complex financial loan amortizations, your data remains 100% on your personal device.
+              </p>
+              <p>
+                This architecture eliminates network latency, guarantees sub-millisecond calculation speeds, and ensures complete privacy for sensitive personal and business information.
+              </p>
+            </div>
+
+            <div className="space-y-3">
+              <h3 className="text-base font-bold text-foreground">Verified Mathematical Precision</h3>
+              <p>
+                Every calculator and converter on NexusTools is developed following standard international unit specifications (BIPM SI units, IEEE 754 floating-point standards, RFC network standards). All logic engines are backed by automated unit test suites covering edge cases, rounding precision, and large numbers.
+              </p>
+              <p>
+                Each tool page includes transparent formulas, step-by-step worked arithmetic examples, and common practical use cases so you can verify calculations with complete confidence.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Homepage Frequently Asked Questions */}
+        <section className="container max-w-5xl space-y-6">
+          <div className="border-b border-border pb-3">
+            <h2 className="text-2xl font-bold tracking-tight text-foreground">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-xs sm:text-sm text-muted-foreground mt-0.5">
+              Common questions about our online calculators, privacy, and formula accuracy.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="p-5 rounded-xl border border-border bg-card space-y-2">
+              <h3 className="text-sm font-bold text-foreground">Is NexusTools completely free to use?</h3>
+              <p className="text-xs text-muted-foreground leading-relaxed">
+                Yes. All 34 calculators, unit converters, network utilities, and text tools are 100% free with unlimited usage. There are no paywalls, subscriptions, or forced account registrations.
+              </p>
+            </div>
+
+            <div className="p-5 rounded-xl border border-border bg-card space-y-2">
+              <h3 className="text-sm font-bold text-foreground">Are my inputs or passwords stored on a server?</h3>
+              <p className="text-xs text-muted-foreground leading-relaxed">
+                No. All calculations, cryptography hashing, Base64 encoding, and password generation happen purely inside your browser using modern Web APIs. We do not store or transmit your tool inputs.
+              </p>
+            </div>
+
+            <div className="p-5 rounded-xl border border-border bg-card space-y-2">
+              <h3 className="text-sm font-bold text-foreground">How accurate are the financial and math calculators?</h3>
+              <p className="text-xs text-muted-foreground leading-relaxed">
+                All algorithms are tested with automated unit test suites for high mathematical accuracy. We provide full formulas and step-by-step arithmetic so you can review each step of the calculation.
+              </p>
+            </div>
+
+            <div className="p-5 rounded-xl border border-border bg-card space-y-2">
+              <h3 className="text-sm font-bold text-foreground">Do these tools work on mobile smartphones?</h3>
+              <p className="text-xs text-muted-foreground leading-relaxed">
+                Yes. NexusTools is designed mobile-first with touch-friendly input fields, instant copy buttons, and responsive layouts that adapt seamlessly to iPhones, Android devices, tablets, and desktops.
+              </p>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );

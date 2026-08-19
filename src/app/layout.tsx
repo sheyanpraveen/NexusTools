@@ -7,7 +7,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} – Free Online Calculators, Converters & Developer Tools`,
+    default: `${siteConfig.name} – Free Online Calculators & Converters`,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
@@ -27,6 +27,18 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: siteConfig.author.name, url: siteConfig.author.url }],
   creator: siteConfig.name,
+  alternates: {
+    canonical: siteConfig.url,
+  },
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png" },
+    ],
+  },
   openGraph: {
     type: "website",
     locale: "en_US",

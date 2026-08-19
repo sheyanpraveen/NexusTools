@@ -1,0 +1,19 @@
+# NexusTools (https://nexus-tools-lemon.vercel.app)
+> Fast, accurate, and free online calculators, unit converters, network utilities, and productivity apps.
+
+## Overview
+NexusTools is an accessible utility platform providing 34 client-side calculation engines with zero tracking, instant processing, and verified mathematical accuracy.
+
+## Core Tool Categories
+- Calculators: Percentage Calculator, Discount Calculator, Percentage Increase/Decrease, Average Calculator, Ratio Simplifier.
+- Finance: Simple Interest Calculator, Compound Interest Calculator, Loan & Mortgage Amortization.
+- Converters: Universal Length, Weight & Mass, Temperature (Celsius, Fahrenheit, Kelvin), Data Storage (Binary vs Decimal).
+- Date & Time: Exact Chronological Age Calculator, Date Difference with business days, Unix Timestamp Epoch Converter, Timezone Converter.
+- Technology: IPv4 Subnet Calculator, CIDR Prefix Calculator, IP Address Inspector, JSON Formatter & Validator, Base64 Encoder/Decoder, URL Encoder, UUID v4 Generator, Password Generator, Hash Generator (SHA-256, SHA-512).
+- Text & Writing: Word Counter with reading time, Character Counter with social/search limits, Case Converter (Title, camelCase, snake_case, kebab-case), Text Diff Compare, URL Slug Generator.
+- Productivity: Pomodoro Focus Timer with Web Audio chimes, Vector QR Code Generator.
+
+## Guarantees
+- 100% Client-Side Processing: Sensitive strings, passwords, and JSON payloads never leave the user's browser.
+- Mathematically Verified: Peer-reviewed formulas with automated unit test suites.
+- No Mandatory Registration: Free instant access without paywalls or forced logins.

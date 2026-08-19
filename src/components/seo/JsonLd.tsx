@@ -126,10 +126,33 @@ export function WebSiteJsonLd() {
     },
   };
 
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: siteConfig.name,
+    url: siteConfig.url,
+    logo: `${siteConfig.url}/icon.svg`,
+    sameAs: [
+      siteConfig.links.github,
+      siteConfig.links.twitter,
+    ],
+    contactPoint: {
+      "@type": "ContactPoint",
+      email: siteConfig.author.email,
+      contactType: "customer service",
+    },
+  };
+
   return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+    </>
   );
 }
