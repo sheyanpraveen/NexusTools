@@ -27,7 +27,7 @@ export const siteConfig = {
     client: "ca-pub-2560127169556607",
   },
   analytics: {
-    gaMeasurementId: process.env.NEXT_PUBLIC_GA_ID || "G-XXXXXXXXXX",
+    gaMeasurementId: process.env.NEXT_PUBLIC_GA_ID || "G-1ZBL4TMD9X",
   },
 };
 
